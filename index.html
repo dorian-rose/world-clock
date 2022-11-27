@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>World Clock - Dorian Kelly</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
   </head>
 
@@ -19,7 +21,7 @@
         <option value="saigon">Ho Chi Minh City</option>
       </select>
 
-      <div class="city">
+      <div class="city" id="sydney">
         <div>
           <h2>Sydney 🇦🇺</h2>
           <div class="date">November 26 2022</div>
@@ -27,7 +29,7 @@
         <div class="time">11:35 <small> AM </small></div>
       </div>
 
-      <div class="city">
+      <div class="city" id="athens">
         <div>
           <h2>Athens 🇬🇷</h2>
           <div class="date">November 26 2022</div>
@@ -35,7 +37,7 @@
         <div class="time">11:35 <small> AM </small></div>
       </div>
 
-      <div class="city">
+      <div class="city" id="los-angeles">
         <div>
           <h2>Los Angeles 🇺🇸</h2>
           <div class="date">November 26 2022</div>
